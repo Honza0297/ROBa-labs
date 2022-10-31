@@ -1,9 +1,10 @@
+int pin = A0;
 void setup(){
   /*
    * TODO:
    * 1) Enabble Serial communication at 9600 bauds
    */
-  pinMode(A0, INPUT);   
+  pinMode(pin, INPUT);   
   }
 
 void loop() {
